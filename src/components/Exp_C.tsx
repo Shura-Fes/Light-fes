@@ -1,4 +1,4 @@
-export const Exp3 = () => {
+export const Exp_C = () => {
     const content = `Cサイド解説
 
 STEP1

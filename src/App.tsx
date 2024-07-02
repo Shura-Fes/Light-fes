@@ -1,12 +1,12 @@
 import './App.css'
-import { BrowserRouter, Route, Routes, } from 'react-router-dom'
-import { Exp3 } from './components/Exp3'
+import { Route, Routes, } from 'react-router-dom'
+import { Exp_C } from './components/Exp_C'
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path='/Exp3_ouBa4eng' element={<Exp3 />} />
+        <Route path='/Exp3_ouBa4eng' element={<Exp_C />} />
       </Routes>
     </>
   )
