@@ -51,6 +51,6 @@ jobs:
           curl -H "Content-Type: application/json" \
           -X POST \
           -d '{
-            "content": "ビルドが完了しました！https://back-to-back.vercel.app/"
+            "content": "ビルドが完了しました！https://syuright-fes.rednamed.red/"
           }' \
           ${{ secrets.DISCORD_WEBHOOK_URL }}
