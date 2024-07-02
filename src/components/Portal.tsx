@@ -23,6 +23,9 @@ export const Portal = () => {
             setClearingN(true)
         } else if (hash.includes("DieV8yiiPahtooqu")) {
             resetCleared()
+            setClearingA(false)
+            setClearingB(false)
+            setClearingN(false)
         }
     }, [])
     useEffect(() => {
