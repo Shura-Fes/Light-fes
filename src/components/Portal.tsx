@@ -21,6 +21,8 @@ export const Portal = () => {
         } else if (hash.includes("Oopeir1iedohrai0")) {
             clearContent("N")
             setClearingN(true)
+        } else if (hash.includes("DieV8yiiPahtooqu")) {
+            resetCleared()
         }
     }, [])
     useEffect(() => {
@@ -33,6 +35,5 @@ export const Portal = () => {
         {clearingN && <div>N くりあずみ</div>}
         {clearingA || clearingB || clearingN || <div>未クリア</div>}
         <Link to={"Exp3_ouBa4eng"}>解説C</Link>
-        <button onClick={() => resetCleared()}>Reset(debug)</button>
     </>
 }
