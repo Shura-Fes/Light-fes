@@ -34,6 +34,5 @@ export const Portal = () => {
         {clearingB && <div>B くりあずみ</div>}
         {clearingN && <div>N くりあずみ</div>}
         {clearingA || clearingB || clearingN || <div>未クリア</div>}
-        <Link to={"Exp3_ouBa4eng"}>解説C</Link>
     </>
 }
