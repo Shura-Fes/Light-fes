@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
 import { checkCleared, clearContent, resetCleared } from "../oparateStrage"
+import { Main_KV } from "./Main_KV"
 
 export const Portal = () => {
 
@@ -33,8 +33,10 @@ export const Portal = () => {
     }, [clearingA, clearingB, clearingN])
 
     return <>
-        {clearingA && <div>A くりあずみ</div>}
-        {clearingB && <div>B くりあずみ</div>}
+        <Main_KV
+            clearingA={clearingA}
+            clearingB={clearingB}
+        />
         {clearingN && <div>N くりあずみ</div>}
         {clearingA || clearingB || clearingN || <div>未クリア</div>}
     </>
