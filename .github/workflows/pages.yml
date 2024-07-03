@@ -54,3 +54,13 @@ jobs:
             "content": "ビルドが完了しました！https://syuright-fes.rednamed.red/"
           }' \
           ${{ secrets.DISCORD_WEBHOOK_URL }}
+        if: ${{success()}}
+      - name: Notify Discord Failure
+        run: |
+          curl -H "Content-Type: application/json" \
+          -X POST \
+          -d '{
+            "content": "ビルドが失敗しました！https://syuright-fes.rednamed.red/"
+          }' \
+          ${{ secrets.DISCORD_WEBHOOK_URL }}
+        if: ${{failure()}}
