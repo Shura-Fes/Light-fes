@@ -6,24 +6,24 @@
 
 mainにpushすると以下のURLに反映されます
 
-https://syuright-fes.rednamed.red/
+https://syulight-fes.rednamed.red/
 
 Aクリア
 
-https://syuright-fes.rednamed.red/#/?code=eigogieGaek6lai8
+https://syulight-fes.rednamed.red/#/?code=eigogieGaek6lai8
 
 Bクリア
 
-https://syuright-fes.rednamed.red/#/?code=aish3zaiPhaiwa0U
+https://syulight-fes.rednamed.red/#/?code=aish3zaiPhaiwa0U
 
 Nクリア
 
-https://syuright-fes.rednamed.red/#/?code=Oopeir1iedohrai0
+https://syulight-fes.rednamed.red/#/?code=Oopeir1iedohrai0
 
 全リセット
 
-https://syuright-fes.rednamed.red/#/?code=DieV8yiiPahtooqu
+https://syulight-fes.rednamed.red/#/?code=DieV8yiiPahtooqu
 
 C解説
 
-https://syuright-fes.rednamed.red/#/Exp3_ouBa4eng
+https://syulight-fes.rednamed.red/#/Exp3_ouBa4eng
