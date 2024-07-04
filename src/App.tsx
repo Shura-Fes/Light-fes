@@ -7,7 +7,7 @@ import { Exp_B } from './components/Exp_B'
 
 function App() {
   return (
-    <div style={{maxWidth:"650px"}}>
+    <div style={{maxWidth:"450px"}}>
       <Routes>
         <Route path="" element={<Portal/>} />
         <Route path='ExpA_aiya1iZe' element={<Exp_A />} />
