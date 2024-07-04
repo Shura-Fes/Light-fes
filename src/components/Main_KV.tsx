@@ -13,7 +13,7 @@ type Props = {
 export const Main_KV = ({ clearingA, clearingB }: Props) => {
     const keyVisual = getKV(clearingA, clearingB)
     return <>
-        <img src={keyVisual} style={{ objectFit: "contain" }} />
+        <img src={keyVisual} style={{ objectFit: "contain",maxWidth:"100%" }} />
         {clearingA && <Link to={"ExpA_aiya1iZe"}>参加者サイド解説</Link>}
         {clearingB && <Link to={"ExpB_Gaiph9Ol"}>制作者サイド解説</Link>}
     </>
