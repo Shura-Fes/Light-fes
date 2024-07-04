@@ -51,7 +51,7 @@ jobs:
           curl -H "Content-Type: application/json" \
           -X POST \
           -d '{
-            "content": "ビルドが完了しました！https://syuright-fes.rednamed.red/"
+            "content": "ビルドが完了しました！https://github.com/Shura-Fes/Light-fes/"
           }' \
           ${{ secrets.DISCORD_WEBHOOK_URL }}
         if: ${{success()}}
@@ -60,7 +60,7 @@ jobs:
           curl -H "Content-Type: application/json" \
           -X POST \
           -d '{
-            "content": "ビルドが失敗しました！https://syuright-fes.rednamed.red/"
+            "content": "ビルドが失敗しました！https://github.com/Shura-Fes/Light-fes/"
           }' \
           ${{ secrets.DISCORD_WEBHOOK_URL }}
         if: ${{failure()}}
