@@ -19,6 +19,10 @@ export const Main_KV = ({ clearingA, clearingB }: Props) => {
             {clearingA && clearingB && "／"}
             {clearingB && <Link to={"ExpB_Gaiph9Ol"}>制作者サイド解説</Link>}
         </div>
+        <div>
+            {clearingA && clearingB && <div style={{ color: "red" }}>２つのサイドをクリアしたので『回らない当日コンテンツ』に参加可能です！</div>}
+            {clearingA && clearingB && <div>参加するには〇〇〇〇</div>}
+        </div>
     </div>
 }
 

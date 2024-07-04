@@ -39,6 +39,5 @@ export const Portal = () => {
             clearingB={clearingB}
         />
         <Ninetable_KV clearingN={clearingN} />
-        {clearingA || clearingB || clearingN || <div>未クリア</div>}
     </>
 }
