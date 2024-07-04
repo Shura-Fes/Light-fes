@@ -5,7 +5,7 @@ import kenrisho from "../assets/markdowns/images/kenrisho.avif?url"
 
 export const Exp_B = () => {
     const result = content.replaceAll("@water_skelton", water_skelton).replaceAll("@kenrisho", kenrisho)
-    return <div style={{ width: "100%" }}>
+    return <div style={{ maxWidth: "100%" }}>
         <ReactMarkdown>
             {result}
         </ReactMarkdown>
