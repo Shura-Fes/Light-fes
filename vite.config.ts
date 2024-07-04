@@ -4,5 +4,5 @@ import VitePluginWebpAndPath from "vite-plugin-webp-and-path"
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), VitePluginWebpAndPath()],
+  plugins: [react(), VitePluginWebpAndPath({textExtensions:"ts,tsx,css,html"})],
 })
