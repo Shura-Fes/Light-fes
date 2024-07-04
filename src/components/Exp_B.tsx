@@ -5,8 +5,7 @@ import kenrisho from "../assets/markdowns/images/kenrisho.avif?url"
 
 export const Exp_B = () => {
     console.log(water_skelton)
-    console.log(kenrisho)
-    const result = content.replaceAll("@water_skelton", water_skelton).replaceAll("@kenrisho", kenrisho)
+    const result = content.replaceAll("@water_skelton", water_skelton)
     return <>
         <ReactMarkdown>
             {result}
