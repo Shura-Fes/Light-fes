@@ -1,5 +1,5 @@
-import keyVisualGray from "../assets/keyvisual/ninetable_gray.png?url"
-import keyVisualColor from "../assets/keyvisual/ninetable_color.png?url"
+import keyVisualGray from "../assets/keyvisual/ninetable_gray.avif?url"
+import keyVisualColor from "../assets/keyvisual/ninetable_color.avif?url"
 
 
 type Props = {

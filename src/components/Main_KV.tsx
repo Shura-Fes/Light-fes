@@ -1,7 +1,7 @@
-import keyVisualGray from "../assets/keyvisual/syurasai_gray.png?url"
-import keyVisualSankasha from "../assets/keyvisual/syurasai_sankasha.png?url"
-import keyVisualWara from "../assets/keyvisual/syurasai_wara.png?url"
-import keyVisualColor from "../assets/keyvisual/syurasai_color.png?url"
+import keyVisualGray from "../assets/keyvisual/syurasai_gray.avif?url"
+import keyVisualSankasha from "../assets/keyvisual/syurasai_sankasha.avif?url"
+import keyVisualWara from "../assets/keyvisual/syurasai_wara.avif?url"
+import keyVisualColor from "../assets/keyvisual/syurasai_color.avif?url"
 import { Link } from "react-router-dom"
 
 
