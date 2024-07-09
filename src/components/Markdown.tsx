@@ -1,5 +1,3 @@
-import { ClassAttributes, HTMLAttributeReferrerPolicy, HTMLAttributes } from "react"
-import ReactMarkdown, { ExtraProps } from "react-markdown"
 import rehypeHighlight from "rehype-highlight"
 import rehypeRaw from "rehype-raw"
 import rehypeSlug from "rehype-slug"
