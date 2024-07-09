@@ -1,10 +1,8 @@
-import ReactMarkdown from "react-markdown"
 import content from "../assets/markdowns/exp_a.md?raw"
+import { Markdown } from "./Markdown"
+
 
 export const Exp_A = () => {
-    return <>
-        <ReactMarkdown>
-            {content}
-        </ReactMarkdown>
-    </>
+
+    return <Markdown content={content} />
 }
