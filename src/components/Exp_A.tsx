@@ -3,6 +3,5 @@ import { Markdown } from "./Markdown"
 
 
 export const Exp_A = () => {
-
     return <Markdown content={content} />
 }
