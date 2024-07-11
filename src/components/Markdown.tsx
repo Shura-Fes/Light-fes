@@ -17,7 +17,7 @@ export const Markdown = ({ content }: Props) => {
         return result.replaceAll(`(@${image})`, `(${getImageUrl(image)})`)
     }, content)
 
-    return <div style={{ marginBottom: "100px", marginTop: 0, padding: 0 }}>
+    return <div style={{ marginBottom: "100px", marginTop: 0, padding: 0, userSelect: "none" }}>
         <ReactMarkdown
             remarkPlugins={[remarkFrontmatter, remarkGfm]}
             rehypePlugins={[rehypeSlug, rehypeHighlight, rehypeRaw]}
@@ -41,6 +41,8 @@ const ImgF = ({ src, alt }: React.DetailedHTMLProps<React.ImgHTMLAttributes<HTML
 
 const getImageUrl = (target: string) => {
     const targetFileType = ["avif", "webp", "jpeg", "jpg", "png"]
+        .map((extention) => [extention, extention.toUpperCase()])
+        .flat()
 
     for (const extention of targetFileType) {
         const url = new URL(`../assets/markdowns/images/${target}.${extention}`, import.meta.url).href

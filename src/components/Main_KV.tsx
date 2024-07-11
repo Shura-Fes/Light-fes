@@ -21,7 +21,7 @@ export const Main_KV = ({ clearingA, clearingB }: Props) => {
         </div>
         <div>
             {clearingA && clearingB && <div style={{ color: "red" }}>２つのサイドをクリアしたので『回らない当日コンテンツ』に参加可能です！</div>}
-            {clearingA && clearingB && <div>参加するには〇〇〇〇</div>}
+            {clearingA && clearingB && <div>参加するにはこの画面を10番ブースで見せてください！</div>}
         </div>
     </div>
 }
