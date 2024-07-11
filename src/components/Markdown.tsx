@@ -5,6 +5,8 @@ import rehypeSlug from "rehype-slug"
 import remarkFrontmatter from "remark-frontmatter"
 import remarkGfm from "remark-gfm"
 
+import "./Markdown.css"
+
 type Props = {
     content: string
 }
