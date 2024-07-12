@@ -1,0 +1,19 @@
+summary {
+    background-color: midnightblue;
+    color: whitesmoke;
+    height: 25px;
+    padding: 10px;
+}
+
+::marker {
+    font-size: 0px;
+}
+
+details {
+    border: 1px solid;
+    transition: 200ms ;
+}
+
+div {
+    width: 100%;
+}
