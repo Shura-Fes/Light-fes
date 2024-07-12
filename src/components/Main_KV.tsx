@@ -59,11 +59,11 @@ export const Main_KV = ({ clearingA, clearingB }: Props) => {
                 {clearingA && clearingB && (
                     <>
                         <div style={{ color: 'red', marginBottom: '5px' }}>
-                            ２つのサイドをクリアしたので『回らない当日運営』に参加可能です！
+                            ２つのサイドをクリアしたので『回らない当日運営からの脱出』に参加可能です！
                         </div>
                         <img src={ContentCImage} />
                         <div>
-                            参加するには、『回らない当日運営』を予約して、呼ばれたらこの画面をブースで見せてください！
+                            参加するには、『回らない当日運営からの脱出』を予約して、呼ばれたらこの画面をブースで見せてください！
                         </div>
                     </>
                 )}
