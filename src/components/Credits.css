@@ -2,6 +2,11 @@ p {
     font-size: small;
     margin: 3px;
 }
+@media screen and (max-width: 380px) {
+    summary {
+        font-size: 13px;
+    }
+}
 details {
     background-color: lightyellow;
     color: darkblue;
