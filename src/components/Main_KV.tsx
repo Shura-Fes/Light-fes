@@ -34,7 +34,7 @@ export const Main_KV = ({ clearingA, clearingB }: Props) => {
                 </Link>
             </div>
             <div>{clearingA && <Credits_A />}</div>
-            <div>{<Credits_B />}</div>
+            <div>{clearingB && <Credits_B />}</div>
             <div>
                 {clearingA && clearingB && (
                     <div style={{ color: 'red' }}>２つのサイドをクリアしたので『回らない当日運営』に参加可能です！</div>
