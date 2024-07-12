@@ -10,7 +10,7 @@ type Props = {
 
 export const XButton = ({ message, title, hashtags }: Props) => {
   const encoded = encodeURIComponent(`${message}${hashtags.map((hashtag) => `#${hashtag}`).join('\n')}`);
-  const twitterUrl = `https://x.com/intent/post?text=${encoded}&via=shura_festival`;
+  const twitterUrl = `https://twitter.com/share?text=${encoded}`;
 
   return (
     <div className={'xbutton'}>
