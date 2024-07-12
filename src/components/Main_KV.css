@@ -1,0 +1,5 @@
+.disable-link {
+    filter: grayscale(100%);
+    pointer-events: none;
+    user-select: none;
+}
