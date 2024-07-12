@@ -5,13 +5,18 @@ summary {
     padding: 10px;
 }
 
+@media screen and (max-width: 380px) {
+    summary {
+        font-size: 13px;
+    }
+}
 ::marker {
     font-size: 0px;
 }
 
 details {
     border: 1px solid;
-    transition: 200ms ;
+    transition: 200ms;
 }
 
 div {
