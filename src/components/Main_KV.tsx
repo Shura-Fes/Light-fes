@@ -11,6 +11,8 @@ import './Main_KV.css';
 import { Credits_A } from './Credits_A';
 import { Credits_B } from './Credits_B';
 
+import ContentCImage from '../assets/keyvisual/syurasai_contents_c.avif';
+
 type Props = {
     clearingA: boolean;
     clearingB: boolean;
@@ -24,7 +26,7 @@ export const Main_KV = ({ clearingA, clearingB }: Props) => {
     const keyVisual = getKV(clearingA, clearingB);
     return (
         <div style={{ marginBottom: '10px' }}>
-            <img src={keyVisual} style={{ objectFit: 'contain', maxWidth: '100%' }} />
+            <img src={keyVisual} />
             <div>
                 <Link to={clearingA ? 'ExpA_aiya1iZe' : ''} className={clearingA ? '' : 'disable-link'}>
                     <img src={a_banner} style={bannerStyles} alt="参加者サイド解説" />
@@ -37,12 +39,15 @@ export const Main_KV = ({ clearingA, clearingB }: Props) => {
             <div>{clearingB && <Credits_B />}</div>
             <div>
                 {clearingA && clearingB && (
-                    <div style={{ color: 'red' }}>２つのサイドをクリアしたので『回らない当日運営』に参加可能です！</div>
-                )}
-                {clearingA && clearingB && (
-                    <div>
-                        参加するには、『回らない当日運営』を予約して、呼ばれたらこの画面をブースで見せてください！
-                    </div>
+                    <>
+                        <div style={{ color: 'red' }}>
+                            ２つのサイドをクリアしたので『回らない当日運営』に参加可能です！
+                        </div>
+                        <img src={ContentCImage} />
+                        <div>
+                            参加するには、『回らない当日運営』を予約して、呼ばれたらこの画面をブースで見せてください！
+                        </div>
+                    </>
                 )}
             </div>
         </div>
