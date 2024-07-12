@@ -12,6 +12,8 @@ import { Credits_A } from './Credits_A';
 import { Credits_B } from './Credits_B';
 
 import ContentCImage from '../assets/keyvisual/syurasai_contents_c.avif';
+import { XButton } from './X';
+import { Contents, HashTags, KansoTemplate } from '../Consts';
 
 type Props = {
     clearingA: boolean;
@@ -38,9 +40,25 @@ export const Main_KV = ({ clearingA, clearingB }: Props) => {
             <div>{clearingA && <Credits_A />}</div>
             <div>{clearingB && <Credits_B />}</div>
             <div>
+                {clearingA && (
+                    <XButton
+                        title={Contents.A}
+                        hashtags={[HashTags.A, HashTags.S, HashTags.L]}
+                        message={KansoTemplate}
+                    />
+                )}
+                {clearingB && (
+                    <XButton
+                        title={Contents.B}
+                        hashtags={[HashTags.B, HashTags.S, HashTags.L]}
+                        message={KansoTemplate}
+                    />
+                )}
+            </div>
+            <div>
                 {clearingA && clearingB && (
                     <>
-                        <div style={{ color: 'red' }}>
+                        <div style={{ color: 'red', marginBottom: '5px' }}>
                             ２つのサイドをクリアしたので『回らない当日運営』に参加可能です！
                         </div>
                         <img src={ContentCImage} />
