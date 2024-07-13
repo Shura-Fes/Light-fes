@@ -1,7 +1,7 @@
 # React + TypeScript + Vite
 
-起動方法
-`pnpm install`　　
+起動方法  
+`pnpm install`  
 `pnpm dev`
 
 mainにpushすると以下のURLに反映されます
