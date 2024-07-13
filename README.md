@@ -24,6 +24,10 @@ https://syulight-fes.rednamed.red/#/?code=Oopeir1iedohrai0
 
 https://syulight-fes.rednamed.red/#/?code=DieV8yiiPahtooqu
 
+Bヒント
+
+https://syulight-fes.rednamed.red/#/HintsB_ToZ5Ohgh
+
 C解説
 
 https://syulight-fes.rednamed.red/#/Exp3_ouBa4eng
