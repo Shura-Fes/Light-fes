@@ -7,10 +7,12 @@
  <summary>クリア画像</summary>
  <details>
   <summary>成功</summary>
+  
   ![成功画像](@IMG_3072)
  </details>
  <details>
   <summary>失敗</summary>
+  
   ![失敗画像](@IMG_3073)
  </details>
 </details>
