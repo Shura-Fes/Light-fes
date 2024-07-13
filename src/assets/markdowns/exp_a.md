@@ -3,6 +3,18 @@
 
 ![ビジュアル](@visual_a)
 
+<details>
+ <summary>クリア画像</summary>
+ <details>
+  <summary>成功</summary>
+  ![成功画像](@IMG_3072)
+ </details>
+ <details>
+  <summary>失敗</summary>
+  ![失敗画像](@IMG_3073)
+ </details>
+</details>
+
 修羅祭実行委員会コンテンツ  
 『予期せぬ異世界転生からの脱出』  
 にご参加いただきありがとうございます。以下は当コンテンツに参加した方向けの解説記事となっております。
