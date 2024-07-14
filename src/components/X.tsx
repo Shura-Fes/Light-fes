@@ -16,7 +16,7 @@ export const XButton = ({ message, title, hashtags }: Props) => {
     <div className={'xbutton'}>
       <a className={'button'} href={twitterUrl}>
         <XIcon className={'xicon'} />
-        {`『${title}』の感想ポストはこちらから！`}
+        {`『${title}』の感想ポスト`}
       </a>
     </div>
   );
