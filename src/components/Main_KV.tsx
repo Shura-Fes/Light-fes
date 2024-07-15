@@ -22,7 +22,7 @@ export const Main_KV = ({ clearingA, clearingB }: Props) => {
   return (
     <div style={{ marginBottom: '10px' }}>
       <img src={keyVisual} />
-      ((clearingA || clearingB) && <div>解説サイトはこちら！</div>)
+      {((clearingA || clearingB) && <div>解説サイトはこちら！</div>)}
       <div>
         {
         clearingA && <Link to={clearingA ? 'ExpA_aiya1iZe' : ''} className={clearingA ? '' : 'disable-link'}>
