@@ -4,9 +4,6 @@ import keyVisualWara from '../assets/keyvisual/syurasai_wara.avif?url';
 import keyVisualColor from '../assets/keyvisual/syurasai_color.avif?url';
 import { Link } from 'react-router-dom';
 
-import a_banner from '../assets/banners/a_exp_banner.avif?url';
-import b_banner from '../assets/banners/b_exp_banner.avif?url';
-
 import './Main_KV.css';
 import { Credits_A } from './Credits_A';
 import { Credits_B } from './Credits_B';
@@ -18,10 +15,6 @@ import { Contents, HashTags, KansoTemplate } from '../Consts';
 type Props = {
   clearingA: boolean;
   clearingB: boolean;
-};
-
-const bannerStyles = {
-  width: '250px',
 };
 
 export const Main_KV = ({ clearingA, clearingB }: Props) => {
