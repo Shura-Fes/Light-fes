@@ -30,12 +30,17 @@ export const Main_KV = ({ clearingA, clearingB }: Props) => {
     <div style={{ marginBottom: '10px' }}>
       <img src={keyVisual} />
       <div>
-        <Link to={clearingA ? 'ExpA_aiya1iZe' : ''} className={clearingA ? '' : 'disable-link'}>
-          <img src={a_banner} style={bannerStyles} alt="参加者サイド解説" />
+        {
+        clearingA && <Link to={clearingA ? 'ExpA_aiya1iZe' : ''} className={clearingA ? '' : 'disable-link'}>
+          参加者サイド解説
         </Link>
-        <Link to={clearingB ? 'ExpB_Gaiph9Ol' : ''} className={clearingB ? '' : 'disable-link'}>
-          <img src={b_banner} style={bannerStyles} alt="制作者サイド解説" />
+        }
+        {clearingA && clearingB && '／' }
+        {
+        clearingB && <Link to={clearingB ? 'ExpB_Gaiph9Ol' : ''} className={clearingB ? '' : 'disable-link'}>
+          制作者サイド解説
         </Link>
+        }
       </div>
       <div>{clearingA && <Credits_A />}</div>
       <div>{clearingB && <Credits_B />}</div>
