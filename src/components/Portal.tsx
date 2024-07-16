@@ -15,6 +15,8 @@ export const Portal = () => {
         }}
       >
         推奨環境：Google Chrome
+        <br></br>
+        また、一部端末では表示が崩れる場合があります。
       </div>
     </div>
   );
